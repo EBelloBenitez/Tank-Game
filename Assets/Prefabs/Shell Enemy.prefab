@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shell Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9ed1e8a25f964bd4298944675e425a0d, type: 3}
+      propertyPath: m_TagString
+      value: ShellEnemy
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ed1e8a25f964bd4298944675e425a0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.6187696

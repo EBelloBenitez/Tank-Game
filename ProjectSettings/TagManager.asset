@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ShellPlayer
   - ShellEnemy
+  - GameManager
   layers:
   - Default
   - TransparentFX

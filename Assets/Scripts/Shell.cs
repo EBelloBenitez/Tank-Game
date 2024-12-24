@@ -40,7 +40,6 @@ public class Shell : MonoBehaviour
     private void RotateShell()
     {
         Vector3 targetForward = _rb.velocity.normalized;
-        // Quaternion rotation = Quaternion.FromToRotation(transform.forward, targetForward);
         Quaternion rotation = Quaternion.LookRotation(targetForward);
         _rb.MoveRotation(rotation);
         
