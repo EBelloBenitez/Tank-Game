@@ -20,7 +20,7 @@ public class TankHealth : MonoBehaviour
         slider.maxValue = maxHealth;
         slider.value = maxHealth;
 
-        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+          _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         _coll = GetComponent<Collider>();
         _audioSource = GetComponent<AudioSource>();
     }
